@@ -71,6 +71,7 @@ public class Caneta {
         String palavra;
         
         if(!isTampa() && this.getCarga() > 0){
+/*O consumo depende do tamanho da palavra, certo? Da forma que fez, qualquer palavra consome o mesmo valor de carga.*/
             this.carga--;            
             palavra = p;
         }else{
